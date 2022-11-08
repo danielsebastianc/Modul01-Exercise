@@ -87,9 +87,9 @@ let calculate = (arr1, arr2) => {
 console.log(calculate(deret1, deret2));
 
 // Soal 5 end element to end of an array (kalau sudah ada jgn di add)
-let num = 6;
+let num = 3;
 let checkNum = (num) => {
-    let array = [6];
+    let array = [1, 2, 7, 34, 6];
     if (array.includes(num)) {
         return `The number ${num} is already in the array`;
     } else {
@@ -97,6 +97,8 @@ let checkNum = (num) => {
     }
     return array;
 };
+
+console.log(checkNum(num));
 
 // Soal 6 remove all odd numbers in an array and return new array that contains even numbers
 let angka = [123, 418, 16, 37, 33, 2, 4, 52, 34, 17];
